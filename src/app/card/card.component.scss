@@ -1,0 +1,21 @@
+@import '../../styles.scss';
+
+.wordCard{
+    background-color: white;
+    display: inline-flex;
+    width: 250px;
+    height: 100px;
+    color: black;
+
+.wordCardword{
+    font-family:'Montserrat' ;
+    text-align: center;
+    width: 100%;
+    padding-top: 1em;
+    font-size: xx-large;    
+    border: solid 5px rgba($blue,.4) ;
+    border-radius: 0.2em;
+    
+
+}
+}
