@@ -1,19 +1,20 @@
-@import '../../styles.scss';
+@import '../../../styles.scss';
 
 .wordCard{
     background-color: white;
     display: inline-flex;
-    width: 250px;
+    width: 230px;
     height: 100px;
     color: black;
+    margin: 0.5em;
 
 .wordCardword{
     font-family:'Montserrat' ;
     text-align: center;
     width: 100%;
-    padding-top: 1em;
-    font-size: xx-large;    
-    border: solid 5px rgba($blue,.4) ;
+    padding-top: 1.2em;
+    font-size: x-large;    
+    border: solid 5px rgba($neutral,.4) ;
     border-radius: 0.2em;
     
 
