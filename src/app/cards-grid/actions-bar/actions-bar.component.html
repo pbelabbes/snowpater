@@ -2,4 +2,6 @@
     <button mat-icon-button class="refresh" (click)="refreshGrid()">
         <mat-icon>autorenew</mat-icon>
     </button>
+
+    <div class="player-color" [ngStyle]="{'background-color':currentTeam.color}"></div>
 </div>
