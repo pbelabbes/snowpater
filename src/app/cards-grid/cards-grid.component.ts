@@ -19,12 +19,16 @@ export class CardsGridComponent implements OnInit {
   }
   
   private initWords(){
-    const wordsStack = DICO;
+    this.words=[];
+    const wordsStack = Object.assign([],DICO);
     for(let i = 0; i < this.GRIDSIZE; i++){
       const index = Math.floor(Math.random() * wordsStack.length);
       const word = wordsStack.splice(index,1)[0];
       this.words.push(word);
     }
-    console.log(this.words);
+  }
+
+  refresh(){
+    this.initWords();
   }
 }
