@@ -1,4 +1,4 @@
 <div class="grid">
-    <app-card *ngFor="let word of words" [word]="word"></app-card>
+    <app-card *ngFor="let word of wordCards" [wordCard]="word"></app-card>
 </div>
 <app-actions-bar (refreshed)="refresh()"></app-actions-bar>
