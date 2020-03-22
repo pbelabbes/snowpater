@@ -4,5 +4,14 @@
 
     button{
         width: 3em;
+        vertical-align: middle;
+    }
+
+    .player-color{
+        display: inline-block;
+        width: 2em;
+        height: 2em;
+        vertical-align: middle;
+        border-radius: 50%;
     }
 }
